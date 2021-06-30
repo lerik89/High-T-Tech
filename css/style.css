@@ -493,7 +493,12 @@ ul {
 
   nav.nav-l a {
     margin: 0 15px ;
+    font-weight: 300;
   }
+
+nav.nav-l a.active {
+  font-weight: 700;
+}
 
   .container {
     max-width: 1200px;
@@ -507,6 +512,12 @@ ul {
 
   .containerL {
     max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .containertb {
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
   }

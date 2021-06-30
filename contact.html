@@ -22,7 +22,7 @@
           <a href="index.html" class="logo"><img src="img/Logo.svg" alt="Logo"></a>
 
                   <nav class="nav-l">
-                    <a href="index.html" class="active">Main</a>
+                    <a href="index.html">Main</a>
                     <a href="equipment.html">Equipment</a>
                     <a href="service.html">Services</a>
                     <a href="news.html">News</a>
@@ -53,11 +53,39 @@
 
       </div>
 
+      <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            <label for="Name" class="fcf-label">Name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Email Address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <label for="Phone" class="fcf-label">Phone Number</label>
+            <div class="fcf-input-group">
+                <input type="phone" id="Phone" name="Phone" class="fcf-form-control" >
+            </div>
+        </div>
+        <div class="fcf-form-group">
+              <label for="Message" class="fcf-label">Message</label>
+              <div class="fcf-input-group">
+                  <textarea id="Message" name="Message" class="fcf-form-control" rows="20" maxlength="10000" required></textarea>
+              </div>
+          </div>
+          <div class="fcf-form-group">
+              <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+          </div>
+
+      </main>
+
+      <footer>
+      <div class="containertb">
 
 
-    </main>
-
-    <footer class="containertb">
       <div class="row">
 
         <div class="col-footer">
@@ -68,7 +96,7 @@
         <p class="copyright"><a href="https://lerik89.github.io/VZDesign" target="_blank">&copy; Valeria Zaitseva 2021</a></p>
 
 
-
+</div>
     </footer>
     <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
