@@ -143,6 +143,14 @@ nav.navtoggle > ul > li > a {
   font-weight: 300;
 }
 
+form {
+  margin-top: 30px;
+}
+
+.hero {
+  border-bottom: 1px solid #ffffff;
+}
+
 .nav-l {
   display: none;
 }
@@ -279,7 +287,7 @@ margin: 60px 0;
 .bannertxt {
   position: absolute;
   top: 50%;
-  transform: translate(0, -40%);
+  transform: translate(0, -50%);
 }
 
 .column1, .column2 {
@@ -307,12 +315,17 @@ margin: 60px 0;
 
 input[type=text], select, textarea {
   width: 100%;
-  padding: 12px;
+  padding: 20px;
   border: 1px solid #ffffff;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+  margin-top: 5px;
+  margin-bottom: 10px;
   resize: vertical;
+  font-size: 18px;
+}
+
+textarea {
+  height: 200px;
 }
 
 input[type=submit] {
@@ -362,6 +375,10 @@ input[type=submit] {
 
   body {
     font-size: 20px;
+  }
+
+  form {
+    margin-top: 60px;
   }
 
   .navtoggle li .hamicon {
